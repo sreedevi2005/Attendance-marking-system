@@ -1,0 +1,292 @@
+/* Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", "Segoe UI", sans-serif;
+}
+
+/* Body */
+body {
+    background: #f0f4f8;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+}
+
+/* Container */
+/* Container for forms */
+.container {
+    background: #f8f9fa;
+    padding: 35px 30px;
+    width: 360px;
+    border-radius: 20px;
+    box-shadow: 8px 8px 20px #d1d9e6, -8px -8px 20px #ffffff;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+/* Input Fields */
+input {
+    width: 100%;
+    padding: 12px 14px;
+    margin: 10px 0;
+    border-radius: 10px;
+    border: 1px solid #ccc;
+    outline: none;
+    font-size: 15px;
+    transition: 0.3s;
+}
+
+input:focus {
+    border-color: #4b6cb7;
+    box-shadow: 0 0 5px rgba(75,108,183,0.5);
+}
+
+/* Buttons */
+button {
+    width: 100%;
+    padding: 12px;
+    margin-top: 15px;
+    border: none;
+    border-radius: 12px;
+    background: #4b6cb7;
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+button:hover {
+    background: #182848;
+    transform: translateY(-2px);
+}
+
+/* Links */
+a {
+    display: block;
+    text-align: center;
+    margin-top: 15px;
+    color: #4b6cb7;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background: #f1f5f9;
+}
+
+/* Main container */
+.container {
+    width: 500px;
+    margin: 60px auto;
+    text-align: center;
+    background: white;
+    padding: 25px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+/* Button group */
+.btn-group {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    margin-bottom: 20px;
+}
+
+button {
+    background: #4f6db3;
+    color: white;
+    border: none;
+    padding: 12px 25px;
+    border-radius: 8px;
+    cursor: pointer;
+    font-size: 15px;
+}
+
+button:hover {
+    background: #3b5591;
+}
+
+/* Table */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 10px;
+}
+
+th {
+    background: #4f6db3;
+    color: white;
+    padding: 10px;
+}
+
+td {
+    padding: 10px;
+    border: 1px solid #ddd;
+}
+
+/* Logout button */
+.logout {
+    margin-top: 20px;
+    width: 100%;
+}
+/* Logout Button */
+button.logout-btn {
+    width: auto;
+    padding: 10px 20px;
+    background: #ff6b6b;
+    position: absolute;
+    top: 20px;
+    right: 20px;
+}
+
+button.logout-btn:hover {
+    background: #c0392b;
+}
+
+/* Responsive */
+@media (max-width: 500px) {
+    body {
+        padding: 10px;
+    }
+
+    table, input, button {
+        font-size: 14px;
+    }
+}
+
+/* Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", "Segoe UI", sans-serif;
+}
+
+/* Body */
+body {
+    background: #f0f4f8;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+}
+
+/* Headings */
+h2, h3 {
+    text-align: center;
+    color: #182848;
+    margin-bottom: 20px;
+}
+
+/* Input Fields */
+input {
+    width: 100%;
+    padding: 12px 14px;
+    margin: 10px 0;
+    border-radius: 10px;
+    border: 1px solid #ccc;
+    outline: none;
+    font-size: 15px;
+    transition: 0.3s;
+}
+
+input:focus {
+    border-color: #4b6cb7;
+    box-shadow: 0 0 5px rgba(75,108,183,0.5);
+}
+
+/* Buttons */
+button {
+    width: 100%;
+    padding: 12px;
+    margin-top: 15px;
+    border: none;
+    border-radius: 12px;
+    background: #4b6cb7;
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+button:hover {
+    background: #182848;
+    transform: translateY(-2px);
+}
+
+/* Logout Button */
+button.logout-btn {
+    width: auto;
+    padding: 10px 20px;
+    background: #ff6b6b;
+    position: absolute;
+    top: 20px;
+    right: 20px;
+}
+
+button.logout-btn:hover {
+    background: #c0392b;
+}
+
+/* Links */
+a {
+    display: block;
+    text-align: center;
+    margin-top: 15px;
+    color: #4b6cb7;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+/* Dashboard Table */
+table {
+    width: 100%;
+    margin-top: 20px;
+    border-collapse: collapse;
+    border-radius: 12px;
+    overflow: hidden;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.05);
+}
+
+th, td {
+    padding: 12px;
+    text-align: center;
+}
+
+th {
+    background: #4b6cb7;
+    color: white;
+}
+
+tr:nth-child(even) td {
+    background: #e9ecef;
+}
+
+tr:nth-child(odd) td {
+    background: #f8f9fa;
+}
+
+/* Responsive */
+@media (max-width: 500px) {
+    input, button {
+        font-size: 14px;
+    }
+    table {
+        font-size: 14px;
+    }
+}
